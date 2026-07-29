@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>roblox admins</title>
+<meta name="description" content="community maintained registry of roblox corporation staff accounts">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3C/svg%3E">
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">roblox admins</a>
+    <div class="topbar-links">
+      <a href="#directory">directory</a>
+      <a href="#about">about</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>roblox admins</h1>
+    <p class="hero-sub">every member of the invite only official group of roblox plus known former employees checked live against the roblox api</p>
+    <div class="stats" id="stats">
+      <div class="stat"><div class="stat-num" id="stat-tracked">–</div><div class="stat-label">staffs</div></div>
+      <div class="stat"><div class="stat-num" id="stat-group">–</div><div class="stat-label">in official group</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="directory">
+  <div class="controls">
+    <input type="search" id="search" placeholder="search by username display name or role" autocomplete="off">
+  </div>
+
+  <div class="table-panel">
+    <table class="staff-table">
+      <thead>
+        <tr>
+          <th class="th-user">user</th>
+          <th>role</th>
+          <th class="th-link"></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" hidden>no accounts match</div>
+    <button class="more" id="more" hidden>show more</button>
+  </div>
+
+  <section class="about" id="about">
+    <h2>about</h2>
+    <p>roblox admins lists accounts belonging to people from roblox corporation based on membership in the invite only official group of roblox and the official administrator badge</p>
+    <p>membership in the group is controlled by roblox itself so it is a reliable signal of current employment and accounts that leave get moved to former while banned accounts get moved to terminated</p>
+    <p>the badge icons next to names are the real ones roblox uses for the administrator badge and the verified badge and the presence dot on the avatar shows if someone is online in game or in studio just like on roblox</p>
+    <p>badge visibility is controlled by each staff member so some hide the administrator badge on their profile which means it wont show here even though they still have it ingame</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>roblox admins is a fan made project and is not affiliated with endorsed by or sponsored by roblox corporation</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

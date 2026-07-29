@@ -1,0 +1,33 @@
+{
+  "updated": "2026-07-29",
+  "staff": [
+    { "id": 1, "username": "Roblox", "displayName": "Roblox", "role": "Official system account", "status": "current", "badge": true },
+    { "id": 156, "username": "builderman", "displayName": "builderman", "role": "Co-founder & CEO", "status": "current", "badge": true },
+    { "id": 16, "username": "erik.cassel", "displayName": "erik.cassel", "role": "Co-founder", "status": "former", "badge": true, "note": "1977–2013" },
+    { "id": 22, "username": "Keith", "displayName": "Keith", "role": "Early engineer", "status": "current", "badge": true },
+    { "id": 916, "username": "Matt Dusek", "displayName": "Matt Dusek", "role": "Founding engineer", "status": "current", "badge": true },
+    { "id": 20048521, "username": "TobotRobot", "displayName": "TobotRobot", "role": "Staff", "status": "current", "badge": true },
+    { "id": 41256555, "username": "Squidcod", "displayName": "Squidcod", "role": "Staff", "status": "current", "badge": true },
+    { "id": 111179700, "username": "Sourcemapper", "displayName": "Sourcemapper", "role": "Staff", "status": "current", "badge": true },
+    { "id": 169899238, "username": "subcritical", "displayName": "subcritical", "role": "Engineering", "status": "current", "badge": true },
+    { "id": 29373363, "username": "SolarCrane", "displayName": "SolarCrane", "role": "Community & events", "status": "current", "badge": true },
+    { "id": 2284059, "username": "GroundControll2", "displayName": "GroundControll2", "role": "Events", "status": "current", "badge": true },
+    { "id": 261, "username": "Shedletsky", "displayName": "Shedletsky", "role": "Former creative director", "status": "former", "badge": false },
+    { "id": 56449, "username": "ReeseMcBlox", "displayName": "ReeseMcBlox", "role": "Former community & moderation", "status": "former", "badge": false },
+    { "id": 13268404, "username": "Sorcus", "displayName": "Sorcus", "role": "Former product & design", "status": "former", "badge": false },
+    { "id": 30068452, "username": "zeuxcg", "displayName": "zeuxcg", "role": "Former technical fellow", "status": "former", "badge": false },
+    { "id": 17199995, "username": "tarabyte", "displayName": "tarabyte", "role": "Former community", "status": "former", "badge": false },
+    { "id": 8818419, "username": "KnightGaladeld", "displayName": "KnightGaladeld", "role": "Former events", "status": "former", "badge": false },
+    { "id": 28137935, "username": "CountVelcro", "displayName": "CountVelcro", "role": "Former staff", "status": "former", "badge": false },
+    { "id": 422502, "username": "GollyGreg", "displayName": "GollyGreg", "role": "Former community", "status": "former", "badge": false },
+    { "id": 33067469, "username": "twberg", "displayName": "twberg", "role": "Former staff", "status": "former", "badge": false },
+    { "id": 39876101, "username": "CodeWriter", "displayName": "CodeWriter", "role": "Former events", "status": "former", "badge": false },
+    { "id": 55605782, "username": "coefficients", "displayName": "coefficients", "role": "Former staff", "status": "former", "badge": false },
+    { "id": 13965343, "username": "ostrichSized", "displayName": "ostrichSized", "role": "Former staff", "status": "former", "badge": false },
+    { "id": 38324232, "username": "SlingshotJunkie", "displayName": "SlingshotJunkie", "role": "Former staff", "status": "former", "badge": false },
+    { "id": 11067623, "username": "sooley", "displayName": "sooley", "role": "Former admin", "status": "former", "badge": false },
+    { "id": 6783205, "username": "UristMcSparks", "displayName": "UristMcSparks", "role": "Former engineering", "status": "former", "badge": false },
+    { "id": 146569, "username": "Gordonrox24", "displayName": "Gordonrox24", "role": "Former community engagement", "status": "former", "badge": false },
+    { "id": 71421065, "username": "Silent137", "displayName": "Silent137", "role": "Former events", "status": "former", "badge": false }
+  ]
+}
