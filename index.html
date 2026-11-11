@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>roblox admins</title>
+<meta name="description" content="community maintained registry of roblox corporation staff accounts">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cstyle%3Epath%7Bfill:%231b1d1f%7D@media (prefers-color-scheme:dark)%7Bpath%7Bfill:%23f7f7f8%7D%7D%3C/style%3E%3Cpath d='M7.91703 2L2 24.083L24.083 30L30 7.91703L7.91703 2ZM18.2592 19.9135L12.0885 18.2592L13.7427 12.0885L19.916 13.7427L18.2592 19.9135Z'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1><svg class="hero-badge" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M7.91703 2L2 24.083L24.083 30L30 7.91703L7.91703 2ZM18.2592 19.9135L12.0885 18.2592L13.7427 12.0885L19.916 13.7427L18.2592 19.9135Z" fill="currentColor"/></svg>roblox admins</h1>
+    <p class="hero-sub">every member of the invite only official group of roblox plus known former employees checked live against the roblox api</p>
+    <div class="stats" id="stats">
+      <div class="stat"><div class="stat-num" id="stat-tracked">0</div><div class="stat-label">staffs</div></div>
+      <div class="stat"><div class="stat-num" id="stat-group">0</div><div class="stat-label">in official group</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="directory">
+  <div class="controls">
+    <input type="search" id="search" placeholder="search by username display name or role" autocomplete="off">
+  </div>
+
+  <div class="table-panel">
+    <table class="staff-table">
+      <thead>
+        <tr>
+          <th class="th-user">user</th>
+          <th>role</th>
+          <th class="th-link"></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" hidden>no accounts match</div>
+    <button class="more" id="more" hidden>show more</button>
+  </div>
+
+  <section class="about" id="about">
+    <h2>about</h2>
+    <p>roblox admins lists accounts belonging to people from roblox corporation based on membership in the invite only official group of roblox and the official administrator badge</p>
+    <p>membership in the group is controlled by roblox itself so it is a reliable signal of current employment and accounts that leave get moved to former while banned accounts get moved to terminated</p>
+    <p>the badge icons next to names are the real ones roblox uses for the administrator badge and the verified badge and the presence dot on the avatar shows if someone is online in game or in studio just like on roblox</p>
+    <p>badge visibility is controlled by each staff member so some hide the administrator badge on their profile which means it wont show here even though they still have it ingame</p>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
